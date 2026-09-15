@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<title>Datos curiosos y mitos</title>
+<title>Inicio</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+/* Reseteo de bordes */
 * {
   box-sizing: border-box;
 }
 
+/* Fuente general de la página */
 body {
   font-family: Comic Sans MS, Helvetica, sans-serif;
 }
 
+/* Encabezado principal */
 header {
   background-color: #CE1126;
   padding: 20px;
@@ -21,6 +24,7 @@ header {
   color: white;
 }
 
+/* Menu de navegación */
 nav {
   width: 100%;
   height: auto; 
@@ -29,11 +33,15 @@ nav {
   text-align: center;
 }
 
+/* Modifica/Personaliza la barra de navegacion */
 nav ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  Justify-content: space-around;
 }
 
+/* Contenido principal */
 article {
   padding: 20px;
   width: 100%;
@@ -41,12 +49,14 @@ article {
   height: auto;
 }
 
+/* Limpia los datos */
 section::after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* Pie de pagina */
 footer {
   background-color: #777;
   padding: 10px;
@@ -54,6 +64,7 @@ footer {
   color: white;
 }
 
+/* Diseño para celulares */
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
