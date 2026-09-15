@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <title>Inicio</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+/* Reseteo de bordes */
 * {
   box-sizing: border-box;
 }
 
+/* Fuente general de la página */
 body {
   font-family: Comic Sans MS, Helvetica, sans-serif;
 }
 
+/* Encabezado principal */
 header {
   background-color: #CE1126;
   padding: 20px;
@@ -21,6 +24,7 @@ header {
   color: white;
 }
 
+/* Menu de navegación */
 nav {
   width: 100%;
   height: auto; 
@@ -29,11 +33,13 @@ nav {
   text-align: center;
 }
 
+/* Quitar viñetas del menú */
 nav ul {
   list-style-type: none;
   padding: 0;
 }
 
+/* Contenido principal */
 article {
   padding: 20px;
   width: 100%;
@@ -41,12 +47,14 @@ article {
   height: auto;
 }
 
+/* Limpia los datos */
 section::after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* Pie de pagina */
 footer {
   background-color: #777;
   padding: 10px;
@@ -54,6 +62,7 @@ footer {
   color: white;
 }
 
+/* Diseño para celulares */
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
@@ -63,11 +72,14 @@ footer {
 </style>
 </head>
 <body>
+
+<!-- Encabezado -->
 <header>
   <h2>Septiembre</h2>
 </header>
 
 <section>
+  <!-- Menu -->
   <nav>
     <ul>
       <li><a href="index.html">Inicio</a></li>
@@ -77,22 +89,30 @@ footer {
     </ul>
   </nav>
   
+  <!-- Texto principal -->
   <article>
     <h1>Mes patrio</h1>
     <p>En México, la fiesta no es una simple pausa en la rutina ni un festejo ocasional; es un pilar vertebral de la identidad nacional, un mecanismo de cohesión comunitaria y un acto continuo de resistencia y memoria histórica. Celebrar, en el contexto mexicano, equivale a reafirmar la existencia, honrar a los antepasados y estrechar los lazos del tejido social a través del encuentro colectivo.</p>
     <p>La riqueza de este universo festivo radica en su deslumbrante origen mestizo. En cada celebración converge la profunda cosmovisión de los pueblos prehispánicos —ligada al respeto por la naturaleza, los ritmos agrícolas y el orden de los astros— con la devoción, el ritualismo y la iconografía del catolicismo colonial. Este sincretismo dio lugar a un calendario sagrado y profano de una diversidad desbordante, donde el mito y la fe conviven en perfecta armonía.</p>
     <p>Cada festividad se despliega como una vivencia inmersiva que despierta todos los sentidos:</p>
+    
+    <!-- Lista de caracteristicas -->
     <ul><b>Música y sonido:</b> Desde el retumbar de los tambores en las danzas tradicionales hasta los metales del mariachi, la banda sinaloense o el son jarocho, la música marca el ritmo de la devoción y el júbilo.</ul>
     <ul><b>Color e iluminación:</b> El papel picado que flota en el aire, la pirotecnia que enciende los cielos nocturnos y las flores de cempasúchil o nochebuena visten los espacios urbanos y rurales con una estética vibrante.</ul>
     <ul><b>Gastronomía ritual:</b> Los platillos emblemáticos —moles complejos, tamales, pozole, panes tradicionales y bebidas ancestrales como el mezcal, el pulque o el atole— no solo alimentan, sino que cargan un profundo significado simbólico y afectivo.</ul>
+    
     <p>Más allá de los grandes acontecimientos conocidos mundialmente, la verdadera alma festiva habita en la escala local. Cada pueblo, barrio y capilla posee sus propias fiestas patronales. En ellas, el estallido de los cohetes, el despliegue de las comparsas, la instalación de ferias populares y el trabajo de las mayordomías locales demuestran que la fiesta es, sobre todo, una obra colectiva. En ese territorio compartido, México se reafirma como un mosaico inagotable de folclore, hospitalidad y vida en comunidad.</p>
   </article>
 </section>
 
+<!-- Datos y pie de página -->
 <footer>
   <img src="bandera.png" alt="Bandera de Mexico" style="width: 40px; height: auto">
   <p>Daniel Vazquez Montañez | 5ºI | 24308051280673</p>
 </footer>
+
+</body>
+</html>
 
 </body>
 </html>
